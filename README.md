@@ -5,3 +5,6 @@ This is a program that is meant to allow you to create an manage your own lists 
 Variances can be added one at a time or in bulk using a CSV file. The variances should include a word or phrase, and a region that word or phrase belongs to.
 
 All variations are stored in a SQL Lite 3 database in the same file as the main.py file. The database is named spelling_variances.db by default.
+
+## To Do
+- Make a plan on how to handle words that are partial matched (e.g. plurals of signular words like realize/realized, realise/realise)
